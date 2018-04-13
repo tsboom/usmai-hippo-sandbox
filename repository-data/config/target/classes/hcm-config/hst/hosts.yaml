@@ -1,0 +1,23 @@
+definitions:
+  config:
+    /hst:hst/hst:hosts:
+      jcr:primaryType: hst:virtualhosts
+      hst:defaultcontextpath: /site
+      /production-env:
+        jcr:primaryType: hst:virtualhostgroup
+        hst:cmslocation: http://usmai-hippo-sandbox.lib.umd.edu:8080/cms
+        hst:defaultport: 8080
+        /edu:
+          jcr:primaryType: hst:virtualhost
+          /umd:
+            jcr:primaryType: hst:virtualhost
+            /lib:
+              jcr:primaryType: hst:virtualhost
+              /usmai-hippo-sandbox:
+                jcr:primaryType: hst:virtualhost
+                /hst:root:
+                  jcr:primaryType: hst:mount
+                  hst:homepage: root
+                  hst:mountpoint: /hst:hst/hst:sites/gogreen
+                  hst:showcontextpath: true
+                  hst:showport: false

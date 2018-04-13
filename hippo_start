@@ -1,0 +1,3 @@
+#!/bin/bash
+
+nohup mvn -Pcargo.run -f /apps/usmai-hippo > /apps/usmai-hippo/logs/nohup.log &
