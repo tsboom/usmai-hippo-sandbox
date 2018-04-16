@@ -5,3 +5,347 @@
   hippostd:foldertype: [new-translated-folder, new-document]
   hippotranslation:id: 996bcac5-86cf-49b5-a7a3-16a74863e814
   hippotranslation:locale: en
+  /groups:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:versionable']
+    jcr:uuid: 7ac007f6-e91b-4bc7-bd66-e9eae0cd5a49
+    hippo:name: Groups
+    hippostd:foldertype: [new-translated-folder, new-document]
+    hippotranslation:id: 781ead4f-deba-4ffc-9001-501fe9dfb294
+    hippotranslation:locale: en
+    /groups:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: 5c6a52ac-c420-4f58-ba77-22f3ced9b7e7
+      hippo:name: Groups
+      /groups[1]:
+        jcr:primaryType: gogreen:contentdocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 589aed38-a153-4721-8313-4bcb67de149d
+        gogreen:introduction: ''
+        gogreen:publicationdate: 0001-01-01T13:00:00+01:00
+        gogreen:title: Groups
+        hippo:availability: []
+        hippo:related___pathreference:
+          type: double
+          value: []
+        hippostd:state: draft
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2018-04-13T15:39:58.906-04:00
+        hippostdpubwf:lastModificationDate: 2018-04-13T15:40:28.612-04:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 606a379d-a824-439f-83ac-391726014625
+        hippotranslation:locale: en
+        /gogreen:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: ''
+      /groups[2]:
+        jcr:primaryType: gogreen:contentdocument
+        jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+        jcr:uuid: 559d860b-11c3-4a24-be28-1af7ea8d54b1
+        gogreen:introduction: ''
+        gogreen:publicationdate: 0001-01-01T13:00:00+01:00
+        gogreen:title: Groups
+        hippo:availability: [preview]
+        hippo:related___pathreference:
+          type: double
+          value: []
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2018-04-13T15:39:58.906-04:00
+        hippostdpubwf:lastModificationDate: 2018-04-13T15:41:09.707-04:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 606a379d-a824-439f-83ac-391726014625
+        hippotranslation:locale: en
+        /gogreen:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: ''
+      /groups[3]:
+        jcr:primaryType: gogreen:contentdocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 109e6758-32c6-468e-9029-1d7553ddff75
+        gogreen:introduction: ''
+        gogreen:publicationdate: 0001-01-01T13:00:00+01:00
+        gogreen:title: Groups
+        hippo:availability: [live]
+        hippo:related___pathreference:
+          type: double
+          value: []
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2018-04-13T15:39:58.906-04:00
+        hippostdpubwf:lastModificationDate: 2018-04-13T15:41:09.707-04:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2018-04-13T15:46:56.651-04:00
+        hippotranslation:id: 606a379d-a824-439f-83ac-391726014625
+        hippotranslation:locale: en
+        /gogreen:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: ''
+    /advisory-groups:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:versionable']
+      jcr:uuid: ed2df776-8a36-4b09-92be-8d5f3c4ccc76
+      hippo:name: Advisory Groups
+      hippostd:foldertype: [new-translated-folder, new-document]
+      hippotranslation:id: 6df8fe6f-ba35-4200-ac3f-17ee045dc47e
+      hippotranslation:locale: en
+      /digital-strategy-advisory-group:
+        jcr:primaryType: hippostd:folder
+        jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:versionable']
+        jcr:uuid: edc9c8e8-638a-4d11-aee2-ccf13f31947f
+        hippo:name: Digital Strategy Advisory Group
+        hippostd:foldertype: [new-translated-folder, new-document]
+        hippotranslation:id: 444a8317-b647-4181-b5de-0de36ad81d62
+        hippotranslation:locale: en
+        /metadata-subgroup:
+          jcr:primaryType: hippo:handle
+          jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+          jcr:uuid: e0b3c7ed-c2e3-4711-8f06-096e6890917e
+          hippo:name: Metadata Subgroup
+          /metadata-subgroup[1]:
+            jcr:primaryType: gogreen:contentdocument
+            jcr:mixinTypes: ['mix:referenceable']
+            jcr:uuid: 21b54e8f-c955-417c-a1cc-9422caa9cabc
+            gogreen:introduction: ''
+            gogreen:publicationdate: 2018-04-13T15:38:00-04:00
+            gogreen:title: Metadata Subgroup
+            hippo:availability: []
+            hippo:related___pathreference:
+              type: double
+              value: []
+            hippostd:state: draft
+            hippostdpubwf:createdBy: admin
+            hippostdpubwf:creationDate: 2018-04-13T15:37:20.859-04:00
+            hippostdpubwf:lastModificationDate: 2018-04-13T15:56:35.977-04:00
+            hippostdpubwf:lastModifiedBy: admin
+            hippotranslation:id: d0362142-8e44-439e-af03-36eaa7ef239e
+            hippotranslation:locale: en
+            /gogreen:content:
+              jcr:primaryType: hippostd:html
+              hippostd:content: |-
+                <h3>Mission Statement (last updated July 2014)</h3>
+
+                <p>The Metadata Subgroup creates, maintains, and promotes shared metadata standards, practices, and policies that enable an effective shared discovery and access environment for the broad range of resources offered through the USMAI libraries. It advises the DSAG, CLAS, and other stakeholders on relevant operational, policy, and shared technical systems decisions. The Subgroup communicates its work to constituents in USMAI libraries, and identifies appropriate training and mentoring opportunities for these constituents. The Subgroup may be assigned special projects by the Council of Library Directors, or may independently develop projects and initiatives within the scope of its charge. The Subgroup submits an annual report to the DSAG. The Subgroup leadership will communicate and coordinate with the leaders of other DSAG subgroups.</p>
+
+                <h3>Current Members</h3>
+
+                <ul>
+                 <li>Neil M. Frau-Cortes (UMCP) - term ends 6/30/2018</li>
+                 <li>Maria Pinkas (UMB-HSHSL) - term ends 6/30/2019</li>
+                 <li>Aimee Plaisance (UMBC) - term ends 6/30/2019</li>
+                 <li>Audrey Schadt (SU) - term ends 6/30/2019</li>
+                 <li>Linda Seguin (CLAS, ex officio)</li>
+                 <li>Virginia Williams (FSU) - term ends 6/30/2018</li>
+                 <li>Adam Zukowski (TU) - term ends 6/30/2018</li>
+                </ul>
+
+                <h3>Parent Group: Digital Strategy Advisory Group</h3>
+          /metadata-subgroup[2]:
+            jcr:primaryType: gogreen:contentdocument
+            jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+            jcr:uuid: f26a6c7e-14c2-44d0-b794-7da293b43b41
+            gogreen:introduction: ''
+            gogreen:publicationdate: 2018-04-13T15:38:00-04:00
+            gogreen:title: Metadata Subgroup
+            hippo:availability: [preview]
+            hippo:related___pathreference:
+              type: double
+              value: []
+            hippostd:state: unpublished
+            hippostdpubwf:createdBy: admin
+            hippostdpubwf:creationDate: 2018-04-13T15:37:20.859-04:00
+            hippostdpubwf:lastModificationDate: 2018-04-13T15:38:03.725-04:00
+            hippostdpubwf:lastModifiedBy: admin
+            hippotranslation:id: d0362142-8e44-439e-af03-36eaa7ef239e
+            hippotranslation:locale: en
+            /gogreen:content:
+              jcr:primaryType: hippostd:html
+              hippostd:content: |-
+                <h3>Mission Statement (last updated July 2014)</h3>
+
+                <p>The Metadata Subgroup creates, maintains, and promotes shared metadata standards, practices, and policies that enable an effective shared discovery and access environment for the broad range of resources offered through the USMAI libraries. It advises the DSAG, CLAS, and other stakeholders on relevant operational, policy, and shared technical systems decisions. The Subgroup communicates its work to constituents in USMAI libraries, and identifies appropriate training and mentoring opportunities for these constituents. The Subgroup may be assigned special projects by the Council of Library Directors, or may independently develop projects and initiatives within the scope of its charge. The Subgroup submits an annual report to the DSAG. The Subgroup leadership will communicate and coordinate with the leaders of other DSAG subgroups.</p>
+
+                <h3>Current Members</h3>
+
+                <ul>
+                 <li>Neil M. Frau-Cortes (UMCP) - term ends 6/30/2018</li>
+                 <li>Maria Pinkas (UMB-HSHSL) - term ends 6/30/2019</li>
+                 <li>Aimee Plaisance (UMBC) - term ends 6/30/2019</li>
+                 <li>Audrey Schadt (SU) - term ends 6/30/2019</li>
+                 <li>Linda Seguin (CLAS, ex officio)</li>
+                 <li>Virginia Williams (FSU) - term ends 6/30/2018</li>
+                 <li>Adam Zukowski (TU) - term ends 6/30/2018</li>
+                </ul>
+
+                <h3>Parent Group: Digital Strategy Advisory Group</h3>
+          /metadata-subgroup[3]:
+            jcr:primaryType: gogreen:contentdocument
+            jcr:mixinTypes: ['mix:referenceable']
+            jcr:uuid: f1a8edfa-bb39-418a-9ea3-f2fec1a57abb
+            gogreen:introduction: ''
+            gogreen:publicationdate: 2018-04-13T15:38:00-04:00
+            gogreen:title: Metadata Subgroup
+            hippo:availability: [live]
+            hippo:related___pathreference:
+              type: double
+              value: []
+            hippostd:state: published
+            hippostdpubwf:createdBy: admin
+            hippostdpubwf:creationDate: 2018-04-13T15:37:20.859-04:00
+            hippostdpubwf:lastModificationDate: 2018-04-13T15:38:03.725-04:00
+            hippostdpubwf:lastModifiedBy: admin
+            hippostdpubwf:publicationDate: 2018-04-13T15:40:08.572-04:00
+            hippotranslation:id: d0362142-8e44-439e-af03-36eaa7ef239e
+            hippotranslation:locale: en
+            /gogreen:content:
+              jcr:primaryType: hippostd:html
+              hippostd:content: |-
+                <h3>Mission Statement (last updated July 2014)</h3>
+
+                <p>The Metadata Subgroup creates, maintains, and promotes shared metadata standards, practices, and policies that enable an effective shared discovery and access environment for the broad range of resources offered through the USMAI libraries. It advises the DSAG, CLAS, and other stakeholders on relevant operational, policy, and shared technical systems decisions. The Subgroup communicates its work to constituents in USMAI libraries, and identifies appropriate training and mentoring opportunities for these constituents. The Subgroup may be assigned special projects by the Council of Library Directors, or may independently develop projects and initiatives within the scope of its charge. The Subgroup submits an annual report to the DSAG. The Subgroup leadership will communicate and coordinate with the leaders of other DSAG subgroups.</p>
+
+                <h3>Current Members</h3>
+
+                <ul>
+                 <li>Neil M. Frau-Cortes (UMCP) - term ends 6/30/2018</li>
+                 <li>Maria Pinkas (UMB-HSHSL) - term ends 6/30/2019</li>
+                 <li>Aimee Plaisance (UMBC) - term ends 6/30/2019</li>
+                 <li>Audrey Schadt (SU) - term ends 6/30/2019</li>
+                 <li>Linda Seguin (CLAS, ex officio)</li>
+                 <li>Virginia Williams (FSU) - term ends 6/30/2018</li>
+                 <li>Adam Zukowski (TU) - term ends 6/30/2018</li>
+                </ul>
+
+                <h3>Parent Group: Digital Strategy Advisory Group</h3>
+        /reporting--analytics-subgroup:
+          jcr:primaryType: hippo:handle
+          jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+          jcr:uuid: 58ed525d-948a-4753-9338-a9c112a908bd
+          hippo:name: Reporting & Analytics Subgroup
+          /reporting--analytics-subgroup[1]:
+            jcr:primaryType: gogreen:contentdocument
+            jcr:mixinTypes: ['mix:referenceable']
+            jcr:uuid: c339bf96-316b-4f87-935b-cc908d0c6a00
+            gogreen:introduction: ''
+            gogreen:publicationdate: 0001-01-01T13:00:00+01:00
+            gogreen:title: Reporting & Analytics Subgroup
+            hippo:availability: []
+            hippo:related___pathreference:
+              type: double
+              value: []
+            hippostd:state: draft
+            hippostdpubwf:createdBy: admin
+            hippostdpubwf:creationDate: 2018-04-13T15:41:42.950-04:00
+            hippostdpubwf:lastModificationDate: 2018-04-13T15:41:42.950-04:00
+            hippostdpubwf:lastModifiedBy: admin
+            hippotranslation:id: b22ed733-32fd-4677-ba72-95fece28d5f1
+            hippotranslation:locale: en
+            /gogreen:content:
+              jcr:primaryType: hippostd:html
+              hippostd:content: |-
+                <h3>Mission Statement (last updated July 2014)</h3>
+
+                <p>The Reporting &amp; Analytics Subgroup identifies, receives, prioritizes, and communicates with CLAS and other stakeholders on statistics, reporting, and analytics needs of the USMAI or subgroups of its members, for websites, systems, and electronic transactions managed by the USMAI. It anticipates and makes recommendations to DSAG and others on new reporting and analytics systems, tools, standards, metrics, or practices in use by other libraries. The Subgroup communicates its work to constituents in USMAI libraries, and identifies appropriate training and mentoring opportunities for these constituents. The Subgroup may be assigned special projects by the Council of Library Directors, or may independently develop projects and initiatives within the scope of its charge. The Subgroup submits an annual report to the DSAG. The Subgroup leadership will communicate and coordinate with the leaders of other DSAG subgroups.</p>
+
+                <h3>Current Members</h3>
+
+                <ul>
+                 <li>Lulu Barnachea (UMCP) - term ends 6/30/2018</li>
+                 <li>Youlanda Halterman (LNDL) - term ends 6/30/2018</li>
+                 <li>Joseph Koivisto (CLAS, ex officio)</li>
+                 <li>Joseph Neumann (UMB-LL) - term ends 6/30/2018</li>
+                 <li>Matthew Treskon (LNDL) - term ends 6/30/2018</li>
+                </ul>
+
+                <ul>
+                </ul>
+
+                <h3>Parent Group:&nbsp;<a href="http://usmai.org/digital-strategy-advisory-group">Digital Strategy Advisory Group</a></h3>
+          /reporting--analytics-subgroup[2]:
+            jcr:primaryType: gogreen:contentdocument
+            jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+            jcr:uuid: 8bcb64f7-4c9f-441d-bc1f-df58b3501f3d
+            gogreen:introduction: ''
+            gogreen:publicationdate: 0001-01-01T13:00:00+01:00
+            gogreen:title: Reporting & Analytics Subgroup
+            hippo:availability: [preview]
+            hippo:related___pathreference:
+              type: double
+              value: []
+            hippostd:state: unpublished
+            hippostdpubwf:createdBy: admin
+            hippostdpubwf:creationDate: 2018-04-13T15:41:42.950-04:00
+            hippostdpubwf:lastModificationDate: 2018-04-13T15:46:51.432-04:00
+            hippostdpubwf:lastModifiedBy: admin
+            hippotranslation:id: b22ed733-32fd-4677-ba72-95fece28d5f1
+            hippotranslation:locale: en
+            /gogreen:content:
+              jcr:primaryType: hippostd:html
+              hippostd:content: |-
+                <h3>Mission Statement (last updated July 2014)</h3>
+
+                <p>The Reporting &amp; Analytics Subgroup identifies, receives, prioritizes, and communicates with CLAS and other stakeholders on statistics, reporting, and analytics needs of the USMAI or subgroups of its members, for websites, systems, and electronic transactions managed by the USMAI. It anticipates and makes recommendations to DSAG and others on new reporting and analytics systems, tools, standards, metrics, or practices in use by other libraries. The Subgroup communicates its work to constituents in USMAI libraries, and identifies appropriate training and mentoring opportunities for these constituents. The Subgroup may be assigned special projects by the Council of Library Directors, or may independently develop projects and initiatives within the scope of its charge. The Subgroup submits an annual report to the DSAG. The Subgroup leadership will communicate and coordinate with the leaders of other DSAG subgroups.</p>
+
+                <h3>Current Members</h3>
+
+                <ul>
+                 <li>Lulu Barnachea (UMCP) - term ends 6/30/2018</li>
+                 <li>Youlanda Halterman (LNDL) - term ends 6/30/2018</li>
+                 <li>Joseph Koivisto (CLAS, ex officio)</li>
+                 <li>Joseph Neumann (UMB-LL) - term ends 6/30/2018</li>
+                 <li>Matthew Treskon (LNDL) - term ends 6/30/2018</li>
+                </ul>
+
+                <ul>
+                </ul>
+
+                <h3>Parent Group:&nbsp;<a href="http://usmai.org/digital-strategy-advisory-group">Digital Strategy Advisory Group</a></h3>
+          /reporting--analytics-subgroup[3]:
+            jcr:primaryType: gogreen:contentdocument
+            jcr:mixinTypes: ['mix:referenceable']
+            jcr:uuid: 6699055d-5f0e-47d7-9f34-b43b8f528f2e
+            gogreen:introduction: ''
+            gogreen:publicationdate: 0001-01-01T13:00:00+01:00
+            gogreen:title: Reporting & Analytics Subgroup
+            hippo:availability: [live]
+            hippo:related___pathreference:
+              type: double
+              value: []
+            hippostd:state: published
+            hippostdpubwf:createdBy: admin
+            hippostdpubwf:creationDate: 2018-04-13T15:41:42.950-04:00
+            hippostdpubwf:lastModificationDate: 2018-04-13T15:46:51.432-04:00
+            hippostdpubwf:lastModifiedBy: admin
+            hippostdpubwf:publicationDate: 2018-04-13T15:47:02.006-04:00
+            hippotranslation:id: b22ed733-32fd-4677-ba72-95fece28d5f1
+            hippotranslation:locale: en
+            /gogreen:content:
+              jcr:primaryType: hippostd:html
+              hippostd:content: |-
+                <h3>Mission Statement (last updated July 2014)</h3>
+
+                <p>The Reporting &amp; Analytics Subgroup identifies, receives, prioritizes, and communicates with CLAS and other stakeholders on statistics, reporting, and analytics needs of the USMAI or subgroups of its members, for websites, systems, and electronic transactions managed by the USMAI. It anticipates and makes recommendations to DSAG and others on new reporting and analytics systems, tools, standards, metrics, or practices in use by other libraries. The Subgroup communicates its work to constituents in USMAI libraries, and identifies appropriate training and mentoring opportunities for these constituents. The Subgroup may be assigned special projects by the Council of Library Directors, or may independently develop projects and initiatives within the scope of its charge. The Subgroup submits an annual report to the DSAG. The Subgroup leadership will communicate and coordinate with the leaders of other DSAG subgroups.</p>
+
+                <h3>Current Members</h3>
+
+                <ul>
+                 <li>Lulu Barnachea (UMCP) - term ends 6/30/2018</li>
+                 <li>Youlanda Halterman (LNDL) - term ends 6/30/2018</li>
+                 <li>Joseph Koivisto (CLAS, ex officio)</li>
+                 <li>Joseph Neumann (UMB-LL) - term ends 6/30/2018</li>
+                 <li>Matthew Treskon (LNDL) - term ends 6/30/2018</li>
+                </ul>
+
+                <ul>
+                </ul>
+
+                <h3>Parent Group:&nbsp;<a href="http://usmai.org/digital-strategy-advisory-group">Digital Strategy Advisory Group</a></h3>
+      /information-resources-advisory-group:
+        jcr:primaryType: hippostd:folder
+        jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:versionable']
+        jcr:uuid: 4421e093-2766-431f-8bb0-44d917681485
+        hippo:name: Information Resources Advisory Group
+        hippostd:foldertype: [new-translated-folder, new-document]
+        hippotranslation:id: c4d86fce-6a1b-41dd-b336-4b990d592b17
+        hippotranslation:locale: en

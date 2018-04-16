@@ -1,0 +1,382 @@
+/content/documents/gogreen/how-do-i:
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: b5281b97-3878-4b6b-a1d5-774b8f79c159
+  hippo:name: How do I
+  hippostd:foldertype: [new-translated-folder, new-document]
+  hippotranslation:id: 355a3760-6e5a-4468-bc41-33b98c38a4ca
+  hippotranslation:locale: en
+  /aleph:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:versionable']
+    jcr:uuid: bb241f37-4c9f-45ef-a8e8-97ce011c34cc
+    hippo:name: Aleph
+    hippostd:foldertype: [new-translated-folder, new-document]
+    hippotranslation:id: 9f50e661-db21-426a-9026-03e69aa86214
+    hippotranslation:locale: en
+    /access-reports-and-files-in-task-manager:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: 5ea764ef-4a87-4d0d-afc2-798bfd394388
+      hippo:name: Access Reports and Files in Task Manager
+      /access-reports-and-files-in-task-manager[1]:
+        jcr:primaryType: gogreen:contentdocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: f964f051-b22f-464b-8318-e3706b89c1e7
+        gogreen:introduction: Task Manager is the place in the Aleph client where
+          you can access files produced for you on the Aleph server. This includes
+          Ad Hoc reports that you've requested through AlephRx as well as reports
+          and notices that are automatically produced on a regular basis.
+        gogreen:publicationdate: 0001-01-01T13:00:00+01:00
+        gogreen:title: Access Reports and Files in Task Manager
+        hippo:availability: []
+        hippo:related___pathreference:
+          type: double
+          value: []
+        hippostd:state: draft
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2018-04-13T17:33:48.732-04:00
+        hippostdpubwf:lastModificationDate: 2018-04-13T17:34:29.450-04:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: bee5c0a4-e4be-44e9-b6bd-6d0f9a7d13e8
+        hippotranslation:locale: en
+        /gogreen:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: |-
+            <p>Navigation</p>
+
+            <p>Task Manager can be found under the Admin tab (pencil jar icon) in all Aleph modules.&nbsp; Select the File List node to see files that have been deposited for you.</p>
+
+            <table border="0" style="height:128px; width:649px">
+             <tbody>
+              <tr>
+               <td>&nbsp;<img src="http://usmai.umd.edu/sites/staff/files/images/tsk_mgr_circ.png" width="209" alt="" title="" height="313" /></td>
+               <td>&nbsp;<img src="http://usmai.umd.edu/sites/staff/files/images/tsk_mgr_acq.png" width="224" alt="" title="" height="436" /></td>
+               <td>&nbsp;<img src="http://usmai.umd.edu/sites/staff/files/images/tsk_mgr_cat.png" width="309" alt="" title="" height="227" /></td>
+              </tr>
+             </tbody>
+            </table>
+
+            <p>&nbsp;</p>
+
+            <p>&nbsp;</p>
+
+            <p>The File List in the Acquisitions/Serials and Circulation modules defaults to the MAI50 library, while the File List in the Cataloging module defaults to the MAI01 library.&nbsp; Since most files are deposited in MAI50, Cataloging users will usually have to switch libraries using the drop down menu.&nbsp; (Note that MAI50 is above MAI01 in the list.)<br />
+            &nbsp;</p>
+
+            <table border="0" style="height:123px; width:366px">
+             <tbody>
+              <tr>
+               <td><img src="http://usmai.umd.edu/sites/staff/files/images/tsk_mgr_library.png" width="356" alt="" title="" height="281" /></td>
+              </tr>
+             </tbody>
+            </table>
+
+            <p>&nbsp;</p>
+
+            <h3>Locating and Downloading Files&nbsp;</h3>
+
+            <p>The lower pane of the File List contains files that have been saved in the print directory of the remote Aleph server within the last 30 days. To download a file to your local computer, so that you may keep it indefinitely, highlight the file name and click the up arrow, or simply double-click the file name.&nbsp; Then click "OK." The file will then be visible in the upper pane until you remove it.</p>
+
+            <h3>Viewing and Printing Files</h3>
+
+            <p>To view a report within Task Manager, highlight the file and click the "Print" button on the upper right. What happens next depends on the&nbsp;<strong>Print Configuration</strong>&nbsp;you have selected in the drop down on the bottom left of the Task Manager window.&nbsp;<strong>Browse HTML&nbsp;</strong>is recommended for reports in Task Manager.</p>
+
+            <ul>
+             <li>Normal Printing - Displays the Print Setup window without first displaying a preview. Some reports may be cut off on the right side using this configuration.</li>
+             <li>Preview - Opens print preview in a separate window. Some reports may be cut off on the right side using this configuration. You can zoom in/out or print from here.</li>
+             <li>View Raw XML - Displays the raw file without the print template applied. Not particularly useful.</li>
+             <li>Browse XML - Displays the file without the print template applied. If the report is in XML format, then you can export to Excel by right-clicking on the window and selecting the "Export to Microsoft Excel" option.* An intermediate window will open in Excel, asking you to click an arrow to select the table you want.</li>
+             <li><strong>Browse HTML&nbsp;</strong><em>-&nbsp;</em>Displays a print preview, formatted with the print template applied. From here, you may either print the report or export it to Excel by right-clicking on the window and selecting the "Export to Microsoft Excel" option.* (Occasionally, an intermediate window will open in Excel, asking you to click an arrow to select the table you want.)&nbsp; You can also select and copy text to paste it into another application.</li>
+            </ul>
+
+            <p>*Note: "Export to Microsoft Excel" is an Internet Explorer feature (not part of Aleph), which may not be available for all users. It is also only available for reports that we produce in XML format.&nbsp; If you don't see that option when you right-click (in Browse XML or Browse HTML) or it doesn't export well, then you should try copying and pasting the report into Excel.&nbsp; (Try this even if it's weirdly formatted and doesn't look like it will work.)</p>
+
+            <h3>Retrieving Files Not Formatted for Printing</h3>
+
+            <p>If the file is not formatted for printing (e.g. CSV or MARC files), you may need to copy it to the local directory and open it in another program.&nbsp; Follow the steps above to download the file to your local computer.&nbsp; Then, navigate to your print directory in Windows Explorer.&nbsp; The path will depend on which module you're using, and which library, when you download the file.&nbsp;</p>
+
+            <p>For example, if you're a UMBC user in Cataloging and the file was in MAI01:</p>
+
+            <ul>
+             <li>C:\Aleph_22_BC_Live\Catalog\files\MAI01\print</li>
+            </ul>
+
+            <p>Or, if you're a College Park user in Acquisitions and the file was in MAI50:</p>
+
+            <ul>
+             <li>C:\Aleph_22_CP_Live\Acq\files\MAI50\print</li>
+            </ul>
+
+            <p>You may need to rename the file on your local directory to remove the campus suffix (see below) so that it will have the right file extension to be opened in other programs.</p>
+
+            <ul>
+            </ul>
+
+            <h3>Whether or not you see a file in the Task Manager FileList depends on two factors:</h3>
+
+            <ol>
+             <li>Your user level is one that has Task Manager permissions.</li>
+             <li>Your individual user ID has authorization to view files with your campus suffix. Those individuals with authorization for general reports can see files with a .xxprint suffix and those with authorization for sensitive reports can see files with a .xxcirc suffix (where xx=your two-letter campus code). These authorizations are requested at the time your staff account is created. If a need for Task Manager is identified later on, your Campus Contact or Authorized Representative may request access by submitting an AlephRx request and specifying the user ID and authorization needed (general or sensitive).</li>
+            </ol>
+
+            <h3>Common problems and their solutions:</h3>
+
+            <p>When you click "Print" in Task Manager, you receive the error message "Unable to run Saxon."</p>
+
+            <ul>
+             <li>This error usually indicates a problem with the Java installation on your workstation. Try uninstalling and reinstalling Java.&nbsp;<em>It's important to make sure that old versions of Java are completely uninstalled.</em>&nbsp;You may need help from your local desktop support to do this.</li>
+            </ul>
+
+            <p>When you paste your report into Excel, the barcodes change to 3.143E+13.</p>
+
+            <ul>
+             <li>Highlight the barcode column. Select Format &gt; Format Cells &gt; Number. Change Decimal places to zero and click OK.&nbsp; If it then looks like a bunch of pound signs, widen the column.</li>
+            </ul>
+
+            <p>When you import your CSV file to Excel, the diacritics come out wrong.</p>
+
+            <ul>
+             <li>See&nbsp;<a href="https://www.itg.ias.edu/content/how-import-csv-file-uses-utf-8-character-encoding-0" target="_blank">How to import a .csv file that uses UTF-8 character encoding</a>.&nbsp;</li>
+            </ul>
+      /access-reports-and-files-in-task-manager[2]:
+        jcr:primaryType: gogreen:contentdocument
+        jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+        jcr:uuid: 80ef4c2a-4966-4b5f-8323-7622cee7317f
+        gogreen:introduction: Task Manager is the place in the Aleph client where
+          you can access files produced for you on the Aleph server. This includes
+          Ad Hoc reports that you've requested through AlephRx as well as reports
+          and notices that are automatically produced on a regular basis.
+        gogreen:publicationdate: 0001-01-01T13:00:00+01:00
+        gogreen:title: Access Reports and Files in Task Manager
+        hippo:availability: [preview]
+        hippo:related___pathreference:
+          type: double
+          value: []
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2018-04-13T17:33:48.732-04:00
+        hippostdpubwf:lastModificationDate: 2018-04-13T17:34:17.804-04:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: bee5c0a4-e4be-44e9-b6bd-6d0f9a7d13e8
+        hippotranslation:locale: en
+        /gogreen:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: |-
+            <p>Navigation</p>
+
+            <p>Task Manager can be found under the Admin tab (pencil jar icon) in all Aleph modules.&nbsp; Select the File List node to see files that have been deposited for you.</p>
+
+            <table border="0" style="height:128px; width:649px">
+             <tbody>
+              <tr>
+               <td>&nbsp;<img src="http://usmai.umd.edu/sites/staff/files/images/tsk_mgr_circ.png" width="209" alt="" title="" height="313" /></td>
+               <td>&nbsp;<img src="http://usmai.umd.edu/sites/staff/files/images/tsk_mgr_acq.png" width="224" alt="" title="" height="436" /></td>
+               <td>&nbsp;<img src="http://usmai.umd.edu/sites/staff/files/images/tsk_mgr_cat.png" width="309" alt="" title="" height="227" /></td>
+              </tr>
+             </tbody>
+            </table>
+
+            <p>&nbsp;</p>
+
+            <p>&nbsp;</p>
+
+            <p>The File List in the Acquisitions/Serials and Circulation modules defaults to the MAI50 library, while the File List in the Cataloging module defaults to the MAI01 library.&nbsp; Since most files are deposited in MAI50, Cataloging users will usually have to switch libraries using the drop down menu.&nbsp; (Note that MAI50 is above MAI01 in the list.)<br />
+            &nbsp;</p>
+
+            <table border="0" style="height:123px; width:366px">
+             <tbody>
+              <tr>
+               <td><img src="http://usmai.umd.edu/sites/staff/files/images/tsk_mgr_library.png" width="356" alt="" title="" height="281" /></td>
+              </tr>
+             </tbody>
+            </table>
+
+            <p>&nbsp;</p>
+
+            <h3>Locating and Downloading Files&nbsp;</h3>
+
+            <p>The lower pane of the File List contains files that have been saved in the print directory of the remote Aleph server within the last 30 days. To download a file to your local computer, so that you may keep it indefinitely, highlight the file name and click the up arrow, or simply double-click the file name.&nbsp; Then click "OK." The file will then be visible in the upper pane until you remove it.</p>
+
+            <h3>Viewing and Printing Files</h3>
+
+            <p>To view a report within Task Manager, highlight the file and click the "Print" button on the upper right. What happens next depends on the&nbsp;<strong>Print Configuration</strong>&nbsp;you have selected in the drop down on the bottom left of the Task Manager window.&nbsp;<strong>Browse HTML&nbsp;</strong>is recommended for reports in Task Manager.</p>
+
+            <ul>
+             <li>Normal Printing - Displays the Print Setup window without first displaying a preview. Some reports may be cut off on the right side using this configuration.</li>
+             <li>Preview - Opens print preview in a separate window. Some reports may be cut off on the right side using this configuration. You can zoom in/out or print from here.</li>
+             <li>View Raw XML - Displays the raw file without the print template applied. Not particularly useful.</li>
+             <li>Browse XML - Displays the file without the print template applied. If the report is in XML format, then you can export to Excel by right-clicking on the window and selecting the "Export to Microsoft Excel" option.* An intermediate window will open in Excel, asking you to click an arrow to select the table you want.</li>
+             <li><strong>Browse HTML&nbsp;</strong><em>-&nbsp;</em>Displays a print preview, formatted with the print template applied. From here, you may either print the report or export it to Excel by right-clicking on the window and selecting the "Export to Microsoft Excel" option.* (Occasionally, an intermediate window will open in Excel, asking you to click an arrow to select the table you want.)&nbsp; You can also select and copy text to paste it into another application.</li>
+            </ul>
+
+            <p>*Note: "Export to Microsoft Excel" is an Internet Explorer feature (not part of Aleph), which may not be available for all users. It is also only available for reports that we produce in XML format.&nbsp; If you don't see that option when you right-click (in Browse XML or Browse HTML) or it doesn't export well, then you should try copying and pasting the report into Excel.&nbsp; (Try this even if it's weirdly formatted and doesn't look like it will work.)</p>
+
+            <h3>Retrieving Files Not Formatted for Printing</h3>
+
+            <p>If the file is not formatted for printing (e.g. CSV or MARC files), you may need to copy it to the local directory and open it in another program.&nbsp; Follow the steps above to download the file to your local computer.&nbsp; Then, navigate to your print directory in Windows Explorer.&nbsp; The path will depend on which module you're using, and which library, when you download the file.&nbsp;</p>
+
+            <p>For example, if you're a UMBC user in Cataloging and the file was in MAI01:</p>
+
+            <ul>
+             <li>C:\Aleph_22_BC_Live\Catalog\files\MAI01\print</li>
+            </ul>
+
+            <p>Or, if you're a College Park user in Acquisitions and the file was in MAI50:</p>
+
+            <ul>
+             <li>C:\Aleph_22_CP_Live\Acq\files\MAI50\print</li>
+            </ul>
+
+            <p>You may need to rename the file on your local directory to remove the campus suffix (see below) so that it will have the right file extension to be opened in other programs.</p>
+
+            <ul>
+            </ul>
+
+            <h3>Whether or not you see a file in the Task Manager FileList depends on two factors:</h3>
+
+            <ol>
+             <li>Your user level is one that has Task Manager permissions.</li>
+             <li>Your individual user ID has authorization to view files with your campus suffix. Those individuals with authorization for general reports can see files with a .xxprint suffix and those with authorization for sensitive reports can see files with a .xxcirc suffix (where xx=your two-letter campus code). These authorizations are requested at the time your staff account is created. If a need for Task Manager is identified later on, your Campus Contact or Authorized Representative may request access by submitting an AlephRx request and specifying the user ID and authorization needed (general or sensitive).</li>
+            </ol>
+
+            <h3>Common problems and their solutions:</h3>
+
+            <p>When you click "Print" in Task Manager, you receive the error message "Unable to run Saxon."</p>
+
+            <ul>
+             <li>This error usually indicates a problem with the Java installation on your workstation. Try uninstalling and reinstalling Java.&nbsp;<em>It's important to make sure that old versions of Java are completely uninstalled.</em>&nbsp;You may need help from your local desktop support to do this.</li>
+            </ul>
+
+            <p>When you paste your report into Excel, the barcodes change to 3.143E+13.</p>
+
+            <ul>
+             <li>Highlight the barcode column. Select Format &gt; Format Cells &gt; Number. Change Decimal places to zero and click OK.&nbsp; If it then looks like a bunch of pound signs, widen the column.</li>
+            </ul>
+
+            <p>When you import your CSV file to Excel, the diacritics come out wrong.</p>
+
+            <ul>
+             <li>See&nbsp;<a href="https://www.itg.ias.edu/content/how-import-csv-file-uses-utf-8-character-encoding-0" target="_blank">How to import a .csv file that uses UTF-8 character encoding</a>.&nbsp;</li>
+            </ul>
+      /access-reports-and-files-in-task-manager[3]:
+        jcr:primaryType: gogreen:contentdocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 0ddccbe9-8ab0-42cb-8eaa-118d62efe60c
+        gogreen:introduction: Task Manager is the place in the Aleph client where
+          you can access files produced for you on the Aleph server. This includes
+          Ad Hoc reports that you've requested through AlephRx as well as reports
+          and notices that are automatically produced on a regular basis.
+        gogreen:publicationdate: 0001-01-01T13:00:00+01:00
+        gogreen:title: Access Reports and Files in Task Manager
+        hippo:availability: [live]
+        hippo:related___pathreference:
+          type: double
+          value: []
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2018-04-13T17:33:48.732-04:00
+        hippostdpubwf:lastModificationDate: 2018-04-13T17:34:17.804-04:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2018-04-13T17:34:32.738-04:00
+        hippotranslation:id: bee5c0a4-e4be-44e9-b6bd-6d0f9a7d13e8
+        hippotranslation:locale: en
+        /gogreen:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: |-
+            <p>Navigation</p>
+
+            <p>Task Manager can be found under the Admin tab (pencil jar icon) in all Aleph modules.&nbsp; Select the File List node to see files that have been deposited for you.</p>
+
+            <table border="0" style="height:128px; width:649px">
+             <tbody>
+              <tr>
+               <td>&nbsp;<img src="http://usmai.umd.edu/sites/staff/files/images/tsk_mgr_circ.png" width="209" alt="" title="" height="313" /></td>
+               <td>&nbsp;<img src="http://usmai.umd.edu/sites/staff/files/images/tsk_mgr_acq.png" width="224" alt="" title="" height="436" /></td>
+               <td>&nbsp;<img src="http://usmai.umd.edu/sites/staff/files/images/tsk_mgr_cat.png" width="309" alt="" title="" height="227" /></td>
+              </tr>
+             </tbody>
+            </table>
+
+            <p>&nbsp;</p>
+
+            <p>&nbsp;</p>
+
+            <p>The File List in the Acquisitions/Serials and Circulation modules defaults to the MAI50 library, while the File List in the Cataloging module defaults to the MAI01 library.&nbsp; Since most files are deposited in MAI50, Cataloging users will usually have to switch libraries using the drop down menu.&nbsp; (Note that MAI50 is above MAI01 in the list.)<br />
+            &nbsp;</p>
+
+            <table border="0" style="height:123px; width:366px">
+             <tbody>
+              <tr>
+               <td><img src="http://usmai.umd.edu/sites/staff/files/images/tsk_mgr_library.png" width="356" alt="" title="" height="281" /></td>
+              </tr>
+             </tbody>
+            </table>
+
+            <p>&nbsp;</p>
+
+            <h3>Locating and Downloading Files&nbsp;</h3>
+
+            <p>The lower pane of the File List contains files that have been saved in the print directory of the remote Aleph server within the last 30 days. To download a file to your local computer, so that you may keep it indefinitely, highlight the file name and click the up arrow, or simply double-click the file name.&nbsp; Then click "OK." The file will then be visible in the upper pane until you remove it.</p>
+
+            <h3>Viewing and Printing Files</h3>
+
+            <p>To view a report within Task Manager, highlight the file and click the "Print" button on the upper right. What happens next depends on the&nbsp;<strong>Print Configuration</strong>&nbsp;you have selected in the drop down on the bottom left of the Task Manager window.&nbsp;<strong>Browse HTML&nbsp;</strong>is recommended for reports in Task Manager.</p>
+
+            <ul>
+             <li>Normal Printing - Displays the Print Setup window without first displaying a preview. Some reports may be cut off on the right side using this configuration.</li>
+             <li>Preview - Opens print preview in a separate window. Some reports may be cut off on the right side using this configuration. You can zoom in/out or print from here.</li>
+             <li>View Raw XML - Displays the raw file without the print template applied. Not particularly useful.</li>
+             <li>Browse XML - Displays the file without the print template applied. If the report is in XML format, then you can export to Excel by right-clicking on the window and selecting the "Export to Microsoft Excel" option.* An intermediate window will open in Excel, asking you to click an arrow to select the table you want.</li>
+             <li><strong>Browse HTML&nbsp;</strong><em>-&nbsp;</em>Displays a print preview, formatted with the print template applied. From here, you may either print the report or export it to Excel by right-clicking on the window and selecting the "Export to Microsoft Excel" option.* (Occasionally, an intermediate window will open in Excel, asking you to click an arrow to select the table you want.)&nbsp; You can also select and copy text to paste it into another application.</li>
+            </ul>
+
+            <p>*Note: "Export to Microsoft Excel" is an Internet Explorer feature (not part of Aleph), which may not be available for all users. It is also only available for reports that we produce in XML format.&nbsp; If you don't see that option when you right-click (in Browse XML or Browse HTML) or it doesn't export well, then you should try copying and pasting the report into Excel.&nbsp; (Try this even if it's weirdly formatted and doesn't look like it will work.)</p>
+
+            <h3>Retrieving Files Not Formatted for Printing</h3>
+
+            <p>If the file is not formatted for printing (e.g. CSV or MARC files), you may need to copy it to the local directory and open it in another program.&nbsp; Follow the steps above to download the file to your local computer.&nbsp; Then, navigate to your print directory in Windows Explorer.&nbsp; The path will depend on which module you're using, and which library, when you download the file.&nbsp;</p>
+
+            <p>For example, if you're a UMBC user in Cataloging and the file was in MAI01:</p>
+
+            <ul>
+             <li>C:\Aleph_22_BC_Live\Catalog\files\MAI01\print</li>
+            </ul>
+
+            <p>Or, if you're a College Park user in Acquisitions and the file was in MAI50:</p>
+
+            <ul>
+             <li>C:\Aleph_22_CP_Live\Acq\files\MAI50\print</li>
+            </ul>
+
+            <p>You may need to rename the file on your local directory to remove the campus suffix (see below) so that it will have the right file extension to be opened in other programs.</p>
+
+            <ul>
+            </ul>
+
+            <h3>Whether or not you see a file in the Task Manager FileList depends on two factors:</h3>
+
+            <ol>
+             <li>Your user level is one that has Task Manager permissions.</li>
+             <li>Your individual user ID has authorization to view files with your campus suffix. Those individuals with authorization for general reports can see files with a .xxprint suffix and those with authorization for sensitive reports can see files with a .xxcirc suffix (where xx=your two-letter campus code). These authorizations are requested at the time your staff account is created. If a need for Task Manager is identified later on, your Campus Contact or Authorized Representative may request access by submitting an AlephRx request and specifying the user ID and authorization needed (general or sensitive).</li>
+            </ol>
+
+            <h3>Common problems and their solutions:</h3>
+
+            <p>When you click "Print" in Task Manager, you receive the error message "Unable to run Saxon."</p>
+
+            <ul>
+             <li>This error usually indicates a problem with the Java installation on your workstation. Try uninstalling and reinstalling Java.&nbsp;<em>It's important to make sure that old versions of Java are completely uninstalled.</em>&nbsp;You may need help from your local desktop support to do this.</li>
+            </ul>
+
+            <p>When you paste your report into Excel, the barcodes change to 3.143E+13.</p>
+
+            <ul>
+             <li>Highlight the barcode column. Select Format &gt; Format Cells &gt; Number. Change Decimal places to zero and click OK.&nbsp; If it then looks like a bunch of pound signs, widen the column.</li>
+            </ul>
+
+            <p>When you import your CSV file to Excel, the diacritics come out wrong.</p>
+
+            <ul>
+             <li>See&nbsp;<a href="https://www.itg.ias.edu/content/how-import-csv-file-uses-utf-8-character-encoding-0" target="_blank">How to import a .csv file that uses UTF-8 character encoding</a>.&nbsp;</li>
+            </ul>

@@ -1,6 +1,15 @@
 # Compiled class file
 *.class
 
+#logs
+target
+bin/
+.DS_store
+.settings/
+.project
+.classpath
+conf/tomcatkeystore
+
 # Log file
 *.log
 

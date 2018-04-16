@@ -1,0 +1,635 @@
+/content/documents/gogreen/documents:
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: 5fbef726-feb6-4db8-a7c6-b3cc23c74255
+  hippo:name: Documents
+  hippostd:foldertype: [new-translated-folder, new-document]
+  hippotranslation:id: 77ba7e7b-df54-4635-bc2d-c3124f38b711
+  hippotranslation:locale: en
+  /reports:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:versionable']
+    jcr:uuid: 26c6f185-162d-41e6-aa5f-a7ffe36433e3
+    hippo:name: Reports
+    hippostd:foldertype: [new-translated-folder, new-document]
+    hippotranslation:id: e396409c-1e2c-47e7-afe0-2191405a6796
+    hippotranslation:locale: en
+    /clas-reports:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:versionable']
+      jcr:uuid: bf3f5c51-1992-4102-8f28-bd1ad56cc5fd
+      hippo:name: CLAS Reports
+      hippostd:foldertype: [new-translated-folder, new-document]
+      hippotranslation:id: efb574eb-62a3-4977-b401-6bd6575be5fa
+      hippotranslation:locale: en
+      /clas-reports:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: 58c57db6-3a9f-4310-8903-2d1568e16ec3
+        hippo:name: CLAS Reports
+        /clas-reports[1]:
+          jcr:primaryType: gogreen:contentdocument
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 82e6e769-b6d8-4a78-8d28-a3b2e81155d0
+          gogreen:introduction: A page to list CLAS reports
+          gogreen:publicationdate: 0001-01-01T13:00:00+01:00
+          gogreen:title: CLAS Reports
+          hippo:availability: []
+          hippo:related___pathreference:
+            type: double
+            value: []
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2018-04-13T16:13:43.707-04:00
+          hippostdpubwf:lastModificationDate: 2018-04-13T16:13:43.707-04:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 272ca1b6-1043-4485-b891-0af3909ccce6
+          hippotranslation:locale: en
+          /gogreen:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: ''
+        /clas-reports[2]:
+          jcr:primaryType: gogreen:contentdocument
+          jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+          jcr:uuid: ba2a912c-9dbe-408d-afa4-0ddf55b3aa4f
+          gogreen:introduction: A page to list CLAS reports
+          gogreen:publicationdate: 0001-01-01T13:00:00+01:00
+          gogreen:title: CLAS Reports
+          hippo:availability: [preview]
+          hippo:related___pathreference:
+            type: double
+            value: []
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2018-04-13T16:13:43.707-04:00
+          hippostdpubwf:lastModificationDate: 2018-04-13T16:14:02.009-04:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 272ca1b6-1043-4485-b891-0af3909ccce6
+          hippotranslation:locale: en
+          /gogreen:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: ''
+        /clas-reports[3]:
+          jcr:primaryType: gogreen:contentdocument
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: eb842973-80b3-4722-9255-abd169d9a10b
+          gogreen:introduction: A page to list CLAS reports
+          gogreen:publicationdate: 0001-01-01T13:00:00+01:00
+          gogreen:title: CLAS Reports
+          hippo:availability: [live]
+          hippo:related___pathreference:
+            type: double
+            value: []
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2018-04-13T16:13:43.707-04:00
+          hippostdpubwf:lastModificationDate: 2018-04-13T16:14:02.009-04:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2018-04-13T16:20:59.594-04:00
+          hippotranslation:id: 272ca1b6-1043-4485-b891-0af3909ccce6
+          hippotranslation:locale: en
+          /gogreen:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: ''
+  /aleph:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:versionable']
+    jcr:uuid: a2ab260d-8e7e-4557-b518-c9588fe2063d
+    hippo:name: Aleph
+    hippostd:foldertype: [new-translated-folder, new-document]
+    hippotranslation:id: 8deb87dc-e636-4817-a994-ba8028d7c67b
+    hippotranslation:locale: en
+    /aleph:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: 06bacc4c-1bcd-452d-8835-12336dbe475c
+      hippo:name: Aleph
+      /aleph[1]:
+        jcr:primaryType: gogreen:contentdocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 3955f6ae-05c1-4ebb-b1e0-ad04bd5a70f5
+        gogreen:introduction: List to display Aleph docs
+        gogreen:publicationdate: 0001-01-01T13:00:00+01:00
+        gogreen:title: ''
+        hippo:availability: []
+        hippo:related___pathreference:
+          type: double
+          value: []
+        hippostd:state: draft
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2018-04-13T16:20:24.450-04:00
+        hippostdpubwf:lastModificationDate: 2018-04-13T16:20:52.363-04:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 98ca0118-df33-484d-8067-c1b3cc013448
+        hippotranslation:locale: en
+        /gogreen:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: ''
+      /aleph[2]:
+        jcr:primaryType: gogreen:contentdocument
+        jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+        jcr:uuid: 92a4f984-cb3f-4ad1-bffa-01d1d5050949
+        gogreen:introduction: List to display Aleph docs
+        gogreen:publicationdate: 0001-01-01T13:00:00+01:00
+        gogreen:title: ''
+        hippo:availability: [preview]
+        hippo:related___pathreference:
+          type: double
+          value: []
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2018-04-13T16:20:24.450-04:00
+        hippostdpubwf:lastModificationDate: 2018-04-13T16:20:33.409-04:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 98ca0118-df33-484d-8067-c1b3cc013448
+        hippotranslation:locale: en
+        /gogreen:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: ''
+      /aleph[3]:
+        jcr:primaryType: gogreen:contentdocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 430b7d4e-2bc7-4867-95bf-b3c5e3178975
+        gogreen:introduction: List to display Aleph docs
+        gogreen:publicationdate: 0001-01-01T13:00:00+01:00
+        gogreen:title: ''
+        hippo:availability: [live]
+        hippo:related___pathreference:
+          type: double
+          value: []
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2018-04-13T16:20:24.450-04:00
+        hippostdpubwf:lastModificationDate: 2018-04-13T16:20:33.409-04:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2018-04-13T16:20:55.569-04:00
+        hippotranslation:id: 98ca0118-df33-484d-8067-c1b3cc013448
+        hippotranslation:locale: en
+        /gogreen:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: ''
+    /aleph-password-policy:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: 0d83a7ee-5120-4d43-a1e5-9b988a2c8ccd
+      hippo:name: Aleph Password Policy
+      /aleph-password-policy[1]:
+        jcr:primaryType: gogreen:contentdocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 67106073-fa8a-4be4-bbe7-8a3d76d1968b
+        gogreen:introduction: "Contents of this Document:\r\nSummary of the changes\r\
+          \nHow to change your password before it expires\r\nHow to change your password\
+          \ after it has expired\r\nWhat to do if you cannot remember your password\r\
+          \nSuggestions"
+        gogreen:publicationdate: 0001-01-01T13:00:00+01:00
+        gogreen:title: Aleph Password Policy
+        hippo:availability: []
+        hippo:related___pathreference:
+          type: double
+          value: []
+        hippostd:state: draft
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2018-04-13T16:21:46.881-04:00
+        hippostdpubwf:lastModificationDate: 2018-04-13T16:21:46.881-04:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 4053e7d8-9dfd-44c9-a851-acb99011bec6
+        hippotranslation:locale: en
+        /gogreen:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: |-
+            <h2 style="margin-left:0px; margin-right:0px; text-align:start">Summary of the changes in policies:</h2>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">1. The most important change is that&nbsp;<strong>Aleph</strong>&nbsp;<strong>users will have to change their Aleph passwords</strong>&nbsp;<strong>every 180</strong>&nbsp;<strong>days</strong>&nbsp;much like directory passwords for the College Park staff.</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">2. Two weeks before the deadline to change the password users will see the following message every time they log into aleph:</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start"><img src="http://usmai.umd.edu/sites/staff/files/images/image001.png" alt="" title="" /></p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">It is recommended that you change your password as soon as you see this message. For the instructions on how to change your Aleph password please see the&nbsp;<strong><em>“<a style="margin:0px; outline:0px; font-size:12px; vertical-align:baseline; background:transparent; border:0px; padding:0px; font-family:verdana, geneva, arial, helvetica, sans-serif; text-decoration:none" href="#Before_expiration">How to change your password before it expires</a>”</em></strong>&nbsp;part of this tutorial.</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">3.&nbsp;<strong>New password will have to consist of both letters and numbers.</strong>&nbsp;You can also use symbols, but that is not currently required. If your password does not match the complexity requirement the following two messages will appear</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start"><img src="http://usmai.umd.edu/sites/staff/files/images/image002_0.png" alt="" title="" /></p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">&nbsp;</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start"><img src="http://usmai.umd.edu/sites/staff/files/images/image003_0.png" alt="" title="" />&nbsp;&nbsp;</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">4.&nbsp;<strong>New password will have to be at least 8 and at most 10 characters long.</strong>&nbsp;If your password does not match the length requirement the following two messages will appear:</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start"><img src="http://usmai.umd.edu/sites/staff/files/images/image002_0.png" alt="" title="" /></p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">&nbsp;</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start"><img src="http://usmai.umd.edu/sites/staff/files/images/image004_0.png" alt="" title="" /></p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">5.<strong>&nbsp;New password has to be different from the previous passwords you have used</strong>. If you try to use one of the old passwords you will see the following messages:</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start"><img src="http://usmai.umd.edu/sites/staff/files/images/image002_0.png" alt="" title="" /></p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">&nbsp;</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start"><img src="http://usmai.umd.edu/sites/staff/files/images/image005_0.png" alt="" title="" /></p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">6. If the deadline for changing the password is reached Aleph client will not function for your account until you update your password. You will see the following message:</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start"><img src="http://usmai.umd.edu/sites/staff/files/images/image006.preview.png" alt="" title="" /></p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">Please see&nbsp;<strong><em>“<a style="margin:0px; outline:0px; font-size:12px; vertical-align:baseline; background:transparent; border:0px; padding:0px; font-family:verdana, geneva, arial, helvetica, sans-serif; text-decoration:none" href="#After_expiration">How to change your password after it has expired</a>”</em></strong>&nbsp;part of this tutorial for more information.<strong>&nbsp;</strong></p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start"><a name="Before_expiration" title="Before_expiration"></a></p>
+
+            <h2 style="margin-left:0px; margin-right:0px; text-align:start"><strong>How to change your password before it expires:</strong></h2>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">&nbsp;</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">1. Two weeks before the deadline to change the password users will see the following message every time they log into aleph:</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start"><img src="http://usmai.umd.edu/sites/staff/files/images/image001_0.png" alt="" title="" /></p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">Aleph will keep functioning for 13 more days after this message appears, however it is recommended that you change your password as soon as possible.</p>
+
+            <p>2. After you log in into the module of your choice right-click on the key icon located in the bottom right corner of the Aleph client window.</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">&nbsp;</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start"><img src="http://usmai.umd.edu/sites/staff/files/images/image007.png" alt="" title="" /></p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">3.&nbsp;&nbsp;&nbsp;&nbsp;The following menu will appear:</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start"><img src="http://usmai.umd.edu/sites/staff/files/images/image008_0.png" alt="" title="" /></p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">Click on “Change Current Password” option.</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">4.&nbsp;&nbsp;&nbsp;“Change Current Password" dialog box will appear:</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start"><img src="http://usmai.umd.edu/sites/staff/files/images/image009_0.png" alt="" title="" /></p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">Please put your current password into the “Enter Old Password” field and put your new password into the “Enter New Password” and “Re-enter New Password” fields.&nbsp;</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">5.&nbsp;The change takes effect immediately. This completes your “password change” process.&nbsp;</p>
+
+            <p style="margin-left:0in; margin-right:0px; text-align:start"><a name="After_expiration" title="After_expiration"></a></p>
+
+            <h2 style="margin-left:0px; margin-right:0px; text-align:start"><strong>How to change your password after it has expired:</strong></h2>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">&nbsp;</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">1.&nbsp;&nbsp;If the deadline for changing the password is reached Aleph client will not function for your account until you update your password. You will see the following message right after the login:</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start"><img src="http://usmai.umd.edu/sites/staff/files/images/image006.preview.png" alt="" title="" />&nbsp;</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">2. Right after you click “OK” following “Change Current Password” window will appear:</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start"><img src="http://usmai.umd.edu/sites/staff/files/images/image009_0.png" alt="" title="" /></p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">Please put your current password into the “Enter Old Password” field and put your new password into the “Enter New Password” and “Re-enter New Password” fields. The change takes effect immediately and Aleph client will open automatically.</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start"><strong>This completes your “password change” process.</strong>&nbsp;</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">3.&nbsp;&nbsp;If you click “Cancel” instead of updating the password, Aleph client will not log you in and you will see the following message.</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start"><img src="http://usmai.umd.edu/sites/staff/files/images/image010.png" alt="" title="" /></p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">Please click “No”, re-launch aleph client and change your password.</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">If you click “Yes” aleph client will open, but you will see the following message&nbsp;</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start"><img src="http://usmai.umd.edu/sites/staff/files/images/image011.png" alt="" title="" /></p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">The client will not be fully functional. The only function that will work is logging in as another user.&nbsp;</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start"><img src="http://usmai.umd.edu/sites/staff/files/images/image012.png" alt="" title="" /></p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">5.&nbsp;&nbsp;&nbsp;&nbsp;At this point you have only two options:</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">a.&nbsp;&nbsp;&nbsp;&nbsp;Use “Login as Another User” function to log in again and change your password.</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">b.&nbsp;&nbsp;&nbsp;&nbsp;Close and re-open the client to log in and change your password.</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">&nbsp;</p>
+
+            <h2 style="margin-left:0px; margin-right:0px; text-align:start"><strong><a name="cantremember" title="cantremember"></a>What to do if you cannot remember your password:</strong></h2>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">&nbsp;</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">If you do not remember your password do not worry. Have your&nbsp;<a style="margin:0px; outline:0px; font-size:12px; vertical-align:baseline; background:transparent; border:0px; padding:0px; font-family:verdana, geneva, arial, helvetica, sans-serif; text-decoration:none" href="http://usmai.umd.edu/groups/campus-contacts/membership">campus contact</a>&nbsp;or&nbsp;<a style="margin:0px; outline:0px; font-size:12px; vertical-align:baseline; background:transparent; border:0px; padding:0px; font-family:verdana, geneva, arial, helvetica, sans-serif; text-decoration:none" href="http://usmai.umd.edu/groups/information-technology-division-itd/aleph-documentation/aleph-authorized-representatives">authorized representative</a>&nbsp;contact DSS using&nbsp;<a style="margin:0px; outline:0px; font-size:12px; vertical-align:baseline; background:transparent; border:0px; padding:0px; font-family:verdana, geneva, arial, helvetica, sans-serif; text-decoration:none" href="http://usmai.umd.edu/groups/information-technology-division-itd/workplan-folder/submit-aleph-request-rx">RxWeb</a>. Choose "Password reset" as the Functional area; in the “Problem Summary” field please put “Password Reset Request” and the user ID, and one of the CLAS Team members will assist you in resetting your password. You will be told what the new password is.&nbsp;&nbsp;<strong>For security reasons right after you are told what the new password is follow the steps of the “<a style="margin:0px; outline:0px; font-size:12px; vertical-align:baseline; background:transparent; border:0px; padding:0px; font-family:verdana, geneva, arial, helvetica, sans-serif; text-decoration:none" href="http://usmai.umd.edu/documents/aleph-password-policy#Before_expiration">How to change your password before it expires</a>” tutorial to change your password to what you would like it to be.&nbsp;</strong>The reason for that is that CLAS Team member will reset your password to a standard one and someone else may attempt to log in using your name and standard password. By changing your password from standard to your own you are eliminating this possibility.</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start"><a name="Suggestions" title="Suggestions"></a></p>
+
+            <h2 style="margin-left:0px; margin-right:0px; text-align:start">Suggestions:&nbsp;</h2>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">If you have another password that has to be changed every 180 days (College Park staff have directory password that also has to be changed every 180 days) you can set your Aleph password to be the same. This way you have only 1 password to remember instead of two. To do so make sure you change your Aleph password right after you update your other password. This will help you keep both passwords in sync.</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">Alternatively you can use your current Aleph password as a base and add numbers and letter as necessary to make sure it passes the complexity requirements.</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">Please do try to change your password before it expires</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">CLAS Team members can help you reset your password to something new, but they have no way of knowing what your password is. Do not hesitate to contact CLAS Team staff if you need assistance with changing your password.</p>
+      /aleph-password-policy[2]:
+        jcr:primaryType: gogreen:contentdocument
+        jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+        jcr:uuid: 85eb15eb-68dd-4ea3-aab9-63fa6b7a3f64
+        gogreen:introduction: "Contents of this Document:\r\nSummary of the changes\r\
+          \nHow to change your password before it expires\r\nHow to change your password\
+          \ after it has expired\r\nWhat to do if you cannot remember your password\r\
+          \nSuggestions"
+        gogreen:publicationdate: 0001-01-01T13:00:00+01:00
+        gogreen:title: Aleph Password Policy
+        hippo:availability: [preview]
+        hippo:related___pathreference:
+          type: double
+          value: []
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2018-04-13T16:21:46.881-04:00
+        hippostdpubwf:lastModificationDate: 2018-04-13T16:22:18.834-04:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 4053e7d8-9dfd-44c9-a851-acb99011bec6
+        hippotranslation:locale: en
+        /gogreen:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: |-
+            <h2 style="margin-left:0px; margin-right:0px; text-align:start">Summary of the changes in policies:</h2>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">1. The most important change is that&nbsp;<strong>Aleph</strong>&nbsp;<strong>users will have to change their Aleph passwords</strong>&nbsp;<strong>every 180</strong>&nbsp;<strong>days</strong>&nbsp;much like directory passwords for the College Park staff.</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">2. Two weeks before the deadline to change the password users will see the following message every time they log into aleph:</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start"><img src="http://usmai.umd.edu/sites/staff/files/images/image001.png" alt="" title="" /></p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">It is recommended that you change your password as soon as you see this message. For the instructions on how to change your Aleph password please see the&nbsp;<strong><em>“<a style="margin:0px; outline:0px; font-size:12px; vertical-align:baseline; background:transparent; border:0px; padding:0px; font-family:verdana, geneva, arial, helvetica, sans-serif; text-decoration:none" href="#Before_expiration">How to change your password before it expires</a>”</em></strong>&nbsp;part of this tutorial.</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">3.&nbsp;<strong>New password will have to consist of both letters and numbers.</strong>&nbsp;You can also use symbols, but that is not currently required. If your password does not match the complexity requirement the following two messages will appear</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start"><img src="http://usmai.umd.edu/sites/staff/files/images/image002_0.png" alt="" title="" /></p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">&nbsp;</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start"><img src="http://usmai.umd.edu/sites/staff/files/images/image003_0.png" alt="" title="" />&nbsp;&nbsp;</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">4.&nbsp;<strong>New password will have to be at least 8 and at most 10 characters long.</strong>&nbsp;If your password does not match the length requirement the following two messages will appear:</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start"><img src="http://usmai.umd.edu/sites/staff/files/images/image002_0.png" alt="" title="" /></p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">&nbsp;</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start"><img src="http://usmai.umd.edu/sites/staff/files/images/image004_0.png" alt="" title="" /></p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">5.<strong>&nbsp;New password has to be different from the previous passwords you have used</strong>. If you try to use one of the old passwords you will see the following messages:</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start"><img src="http://usmai.umd.edu/sites/staff/files/images/image002_0.png" alt="" title="" /></p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">&nbsp;</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start"><img src="http://usmai.umd.edu/sites/staff/files/images/image005_0.png" alt="" title="" /></p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">6. If the deadline for changing the password is reached Aleph client will not function for your account until you update your password. You will see the following message:</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start"><img src="http://usmai.umd.edu/sites/staff/files/images/image006.preview.png" alt="" title="" /></p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">Please see&nbsp;<strong><em>“<a style="margin:0px; outline:0px; font-size:12px; vertical-align:baseline; background:transparent; border:0px; padding:0px; font-family:verdana, geneva, arial, helvetica, sans-serif; text-decoration:none" href="#After_expiration">How to change your password after it has expired</a>”</em></strong>&nbsp;part of this tutorial for more information.<strong>&nbsp;</strong></p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start"><a name="Before_expiration" title="Before_expiration"></a></p>
+
+            <h2 style="margin-left:0px; margin-right:0px; text-align:start"><strong>How to change your password before it expires:</strong></h2>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">&nbsp;</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">1. Two weeks before the deadline to change the password users will see the following message every time they log into aleph:</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start"><img src="http://usmai.umd.edu/sites/staff/files/images/image001_0.png" alt="" title="" /></p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">Aleph will keep functioning for 13 more days after this message appears, however it is recommended that you change your password as soon as possible.</p>
+
+            <p>2. After you log in into the module of your choice right-click on the key icon located in the bottom right corner of the Aleph client window.</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">&nbsp;</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start"><img src="http://usmai.umd.edu/sites/staff/files/images/image007.png" alt="" title="" /></p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">3.&nbsp;&nbsp;&nbsp;&nbsp;The following menu will appear:</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start"><img src="http://usmai.umd.edu/sites/staff/files/images/image008_0.png" alt="" title="" /></p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">Click on “Change Current Password” option.</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">4.&nbsp;&nbsp;&nbsp;“Change Current Password" dialog box will appear:</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start"><img src="http://usmai.umd.edu/sites/staff/files/images/image009_0.png" alt="" title="" /></p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">Please put your current password into the “Enter Old Password” field and put your new password into the “Enter New Password” and “Re-enter New Password” fields.&nbsp;</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">5.&nbsp;The change takes effect immediately. This completes your “password change” process.&nbsp;</p>
+
+            <p style="margin-left:0in; margin-right:0px; text-align:start"><a name="After_expiration" title="After_expiration"></a></p>
+
+            <h2 style="margin-left:0px; margin-right:0px; text-align:start"><strong>How to change your password after it has expired:</strong></h2>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">&nbsp;</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">1.&nbsp;&nbsp;If the deadline for changing the password is reached Aleph client will not function for your account until you update your password. You will see the following message right after the login:</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start"><img src="http://usmai.umd.edu/sites/staff/files/images/image006.preview.png" alt="" title="" />&nbsp;</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">2. Right after you click “OK” following “Change Current Password” window will appear:</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start"><img src="http://usmai.umd.edu/sites/staff/files/images/image009_0.png" alt="" title="" /></p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">Please put your current password into the “Enter Old Password” field and put your new password into the “Enter New Password” and “Re-enter New Password” fields. The change takes effect immediately and Aleph client will open automatically.</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start"><strong>This completes your “password change” process.</strong>&nbsp;</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">3.&nbsp;&nbsp;If you click “Cancel” instead of updating the password, Aleph client will not log you in and you will see the following message.</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start"><img src="http://usmai.umd.edu/sites/staff/files/images/image010.png" alt="" title="" /></p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">Please click “No”, re-launch aleph client and change your password.</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">If you click “Yes” aleph client will open, but you will see the following message&nbsp;</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start"><img src="http://usmai.umd.edu/sites/staff/files/images/image011.png" alt="" title="" /></p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">The client will not be fully functional. The only function that will work is logging in as another user.&nbsp;</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start"><img src="http://usmai.umd.edu/sites/staff/files/images/image012.png" alt="" title="" /></p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">5.&nbsp;&nbsp;&nbsp;&nbsp;At this point you have only two options:</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">a.&nbsp;&nbsp;&nbsp;&nbsp;Use “Login as Another User” function to log in again and change your password.</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">b.&nbsp;&nbsp;&nbsp;&nbsp;Close and re-open the client to log in and change your password.</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">&nbsp;</p>
+
+            <h2 style="margin-left:0px; margin-right:0px; text-align:start"><strong><a name="cantremember" title="cantremember"></a>What to do if you cannot remember your password:</strong></h2>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">&nbsp;</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">If you do not remember your password do not worry. Have your&nbsp;<a style="margin:0px; outline:0px; font-size:12px; vertical-align:baseline; background:transparent; border:0px; padding:0px; font-family:verdana, geneva, arial, helvetica, sans-serif; text-decoration:none" href="http://usmai.umd.edu/groups/campus-contacts/membership">campus contact</a>&nbsp;or&nbsp;<a style="margin:0px; outline:0px; font-size:12px; vertical-align:baseline; background:transparent; border:0px; padding:0px; font-family:verdana, geneva, arial, helvetica, sans-serif; text-decoration:none" href="http://usmai.umd.edu/groups/information-technology-division-itd/aleph-documentation/aleph-authorized-representatives">authorized representative</a>&nbsp;contact DSS using&nbsp;<a style="margin:0px; outline:0px; font-size:12px; vertical-align:baseline; background:transparent; border:0px; padding:0px; font-family:verdana, geneva, arial, helvetica, sans-serif; text-decoration:none" href="http://usmai.umd.edu/groups/information-technology-division-itd/workplan-folder/submit-aleph-request-rx">RxWeb</a>. Choose "Password reset" as the Functional area; in the “Problem Summary” field please put “Password Reset Request” and the user ID, and one of the CLAS Team members will assist you in resetting your password. You will be told what the new password is.&nbsp;&nbsp;<strong>For security reasons right after you are told what the new password is follow the steps of the “<a style="margin:0px; outline:0px; font-size:12px; vertical-align:baseline; background:transparent; border:0px; padding:0px; font-family:verdana, geneva, arial, helvetica, sans-serif; text-decoration:none" href="http://usmai.umd.edu/documents/aleph-password-policy#Before_expiration">How to change your password before it expires</a>” tutorial to change your password to what you would like it to be.&nbsp;</strong>The reason for that is that CLAS Team member will reset your password to a standard one and someone else may attempt to log in using your name and standard password. By changing your password from standard to your own you are eliminating this possibility.</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start"><a name="Suggestions" title="Suggestions"></a></p>
+
+            <h2 style="margin-left:0px; margin-right:0px; text-align:start">Suggestions:&nbsp;</h2>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">If you have another password that has to be changed every 180 days (College Park staff have directory password that also has to be changed every 180 days) you can set your Aleph password to be the same. This way you have only 1 password to remember instead of two. To do so make sure you change your Aleph password right after you update your other password. This will help you keep both passwords in sync.</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">Alternatively you can use your current Aleph password as a base and add numbers and letter as necessary to make sure it passes the complexity requirements.</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">Please do try to change your password before it expires</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">CLAS Team members can help you reset your password to something new, but they have no way of knowing what your password is. Do not hesitate to contact CLAS Team staff if you need assistance with changing your password.</p>
+      /aleph-password-policy[3]:
+        jcr:primaryType: gogreen:contentdocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 7a5705b1-f6a2-4aa5-92f9-b9f51924ac9d
+        gogreen:introduction: "Contents of this Document:\r\nSummary of the changes\r\
+          \nHow to change your password before it expires\r\nHow to change your password\
+          \ after it has expired\r\nWhat to do if you cannot remember your password\r\
+          \nSuggestions"
+        gogreen:publicationdate: 0001-01-01T13:00:00+01:00
+        gogreen:title: Aleph Password Policy
+        hippo:availability: [live]
+        hippo:related___pathreference:
+          type: double
+          value: []
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2018-04-13T16:21:46.881-04:00
+        hippostdpubwf:lastModificationDate: 2018-04-13T16:22:18.834-04:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2018-04-13T16:22:22.597-04:00
+        hippotranslation:id: 4053e7d8-9dfd-44c9-a851-acb99011bec6
+        hippotranslation:locale: en
+        /gogreen:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: |-
+            <h2 style="margin-left:0px; margin-right:0px; text-align:start">Summary of the changes in policies:</h2>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">1. The most important change is that&nbsp;<strong>Aleph</strong>&nbsp;<strong>users will have to change their Aleph passwords</strong>&nbsp;<strong>every 180</strong>&nbsp;<strong>days</strong>&nbsp;much like directory passwords for the College Park staff.</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">2. Two weeks before the deadline to change the password users will see the following message every time they log into aleph:</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start"><img src="http://usmai.umd.edu/sites/staff/files/images/image001.png" alt="" title="" /></p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">It is recommended that you change your password as soon as you see this message. For the instructions on how to change your Aleph password please see the&nbsp;<strong><em>“<a style="margin:0px; outline:0px; font-size:12px; vertical-align:baseline; background:transparent; border:0px; padding:0px; font-family:verdana, geneva, arial, helvetica, sans-serif; text-decoration:none" href="#Before_expiration">How to change your password before it expires</a>”</em></strong>&nbsp;part of this tutorial.</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">3.&nbsp;<strong>New password will have to consist of both letters and numbers.</strong>&nbsp;You can also use symbols, but that is not currently required. If your password does not match the complexity requirement the following two messages will appear</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start"><img src="http://usmai.umd.edu/sites/staff/files/images/image002_0.png" alt="" title="" /></p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">&nbsp;</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start"><img src="http://usmai.umd.edu/sites/staff/files/images/image003_0.png" alt="" title="" />&nbsp;&nbsp;</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">4.&nbsp;<strong>New password will have to be at least 8 and at most 10 characters long.</strong>&nbsp;If your password does not match the length requirement the following two messages will appear:</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start"><img src="http://usmai.umd.edu/sites/staff/files/images/image002_0.png" alt="" title="" /></p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">&nbsp;</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start"><img src="http://usmai.umd.edu/sites/staff/files/images/image004_0.png" alt="" title="" /></p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">5.<strong>&nbsp;New password has to be different from the previous passwords you have used</strong>. If you try to use one of the old passwords you will see the following messages:</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start"><img src="http://usmai.umd.edu/sites/staff/files/images/image002_0.png" alt="" title="" /></p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">&nbsp;</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start"><img src="http://usmai.umd.edu/sites/staff/files/images/image005_0.png" alt="" title="" /></p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">6. If the deadline for changing the password is reached Aleph client will not function for your account until you update your password. You will see the following message:</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start"><img src="http://usmai.umd.edu/sites/staff/files/images/image006.preview.png" alt="" title="" /></p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">Please see&nbsp;<strong><em>“<a style="margin:0px; outline:0px; font-size:12px; vertical-align:baseline; background:transparent; border:0px; padding:0px; font-family:verdana, geneva, arial, helvetica, sans-serif; text-decoration:none" href="#After_expiration">How to change your password after it has expired</a>”</em></strong>&nbsp;part of this tutorial for more information.<strong>&nbsp;</strong></p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start"><a name="Before_expiration" title="Before_expiration"></a></p>
+
+            <h2 style="margin-left:0px; margin-right:0px; text-align:start"><strong>How to change your password before it expires:</strong></h2>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">&nbsp;</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">1. Two weeks before the deadline to change the password users will see the following message every time they log into aleph:</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start"><img src="http://usmai.umd.edu/sites/staff/files/images/image001_0.png" alt="" title="" /></p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">Aleph will keep functioning for 13 more days after this message appears, however it is recommended that you change your password as soon as possible.</p>
+
+            <p>2. After you log in into the module of your choice right-click on the key icon located in the bottom right corner of the Aleph client window.</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">&nbsp;</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start"><img src="http://usmai.umd.edu/sites/staff/files/images/image007.png" alt="" title="" /></p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">3.&nbsp;&nbsp;&nbsp;&nbsp;The following menu will appear:</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start"><img src="http://usmai.umd.edu/sites/staff/files/images/image008_0.png" alt="" title="" /></p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">Click on “Change Current Password” option.</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">4.&nbsp;&nbsp;&nbsp;“Change Current Password" dialog box will appear:</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start"><img src="http://usmai.umd.edu/sites/staff/files/images/image009_0.png" alt="" title="" /></p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">Please put your current password into the “Enter Old Password” field and put your new password into the “Enter New Password” and “Re-enter New Password” fields.&nbsp;</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">5.&nbsp;The change takes effect immediately. This completes your “password change” process.&nbsp;</p>
+
+            <p style="margin-left:0in; margin-right:0px; text-align:start"><a name="After_expiration" title="After_expiration"></a></p>
+
+            <h2 style="margin-left:0px; margin-right:0px; text-align:start"><strong>How to change your password after it has expired:</strong></h2>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">&nbsp;</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">1.&nbsp;&nbsp;If the deadline for changing the password is reached Aleph client will not function for your account until you update your password. You will see the following message right after the login:</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start"><img src="http://usmai.umd.edu/sites/staff/files/images/image006.preview.png" alt="" title="" />&nbsp;</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">2. Right after you click “OK” following “Change Current Password” window will appear:</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start"><img src="http://usmai.umd.edu/sites/staff/files/images/image009_0.png" alt="" title="" /></p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">Please put your current password into the “Enter Old Password” field and put your new password into the “Enter New Password” and “Re-enter New Password” fields. The change takes effect immediately and Aleph client will open automatically.</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start"><strong>This completes your “password change” process.</strong>&nbsp;</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">3.&nbsp;&nbsp;If you click “Cancel” instead of updating the password, Aleph client will not log you in and you will see the following message.</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start"><img src="http://usmai.umd.edu/sites/staff/files/images/image010.png" alt="" title="" /></p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">Please click “No”, re-launch aleph client and change your password.</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">If you click “Yes” aleph client will open, but you will see the following message&nbsp;</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start"><img src="http://usmai.umd.edu/sites/staff/files/images/image011.png" alt="" title="" /></p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">The client will not be fully functional. The only function that will work is logging in as another user.&nbsp;</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start"><img src="http://usmai.umd.edu/sites/staff/files/images/image012.png" alt="" title="" /></p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">5.&nbsp;&nbsp;&nbsp;&nbsp;At this point you have only two options:</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">a.&nbsp;&nbsp;&nbsp;&nbsp;Use “Login as Another User” function to log in again and change your password.</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">b.&nbsp;&nbsp;&nbsp;&nbsp;Close and re-open the client to log in and change your password.</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">&nbsp;</p>
+
+            <h2 style="margin-left:0px; margin-right:0px; text-align:start"><strong><a name="cantremember" title="cantremember"></a>What to do if you cannot remember your password:</strong></h2>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">&nbsp;</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">If you do not remember your password do not worry. Have your&nbsp;<a style="margin:0px; outline:0px; font-size:12px; vertical-align:baseline; background:transparent; border:0px; padding:0px; font-family:verdana, geneva, arial, helvetica, sans-serif; text-decoration:none" href="http://usmai.umd.edu/groups/campus-contacts/membership">campus contact</a>&nbsp;or&nbsp;<a style="margin:0px; outline:0px; font-size:12px; vertical-align:baseline; background:transparent; border:0px; padding:0px; font-family:verdana, geneva, arial, helvetica, sans-serif; text-decoration:none" href="http://usmai.umd.edu/groups/information-technology-division-itd/aleph-documentation/aleph-authorized-representatives">authorized representative</a>&nbsp;contact DSS using&nbsp;<a style="margin:0px; outline:0px; font-size:12px; vertical-align:baseline; background:transparent; border:0px; padding:0px; font-family:verdana, geneva, arial, helvetica, sans-serif; text-decoration:none" href="http://usmai.umd.edu/groups/information-technology-division-itd/workplan-folder/submit-aleph-request-rx">RxWeb</a>. Choose "Password reset" as the Functional area; in the “Problem Summary” field please put “Password Reset Request” and the user ID, and one of the CLAS Team members will assist you in resetting your password. You will be told what the new password is.&nbsp;&nbsp;<strong>For security reasons right after you are told what the new password is follow the steps of the “<a style="margin:0px; outline:0px; font-size:12px; vertical-align:baseline; background:transparent; border:0px; padding:0px; font-family:verdana, geneva, arial, helvetica, sans-serif; text-decoration:none" href="http://usmai.umd.edu/documents/aleph-password-policy#Before_expiration">How to change your password before it expires</a>” tutorial to change your password to what you would like it to be.&nbsp;</strong>The reason for that is that CLAS Team member will reset your password to a standard one and someone else may attempt to log in using your name and standard password. By changing your password from standard to your own you are eliminating this possibility.</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start"><a name="Suggestions" title="Suggestions"></a></p>
+
+            <h2 style="margin-left:0px; margin-right:0px; text-align:start">Suggestions:&nbsp;</h2>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">If you have another password that has to be changed every 180 days (College Park staff have directory password that also has to be changed every 180 days) you can set your Aleph password to be the same. This way you have only 1 password to remember instead of two. To do so make sure you change your Aleph password right after you update your other password. This will help you keep both passwords in sync.</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">Alternatively you can use your current Aleph password as a base and add numbers and letter as necessary to make sure it passes the complexity requirements.</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">Please do try to change your password before it expires</p>
+
+            <p style="margin-left:0px; margin-right:0px; text-align:start">CLAS Team members can help you reset your password to something new, but they have no way of knowing what your password is. Do not hesitate to contact CLAS Team staff if you need assistance with changing your password.</p>
